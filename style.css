@@ -1,0 +1,233 @@
+@font-face {
+  font-family: "title";
+  src: url(fonts/johnhancockcp.otf) format("truetype");
+}
+@font-face {
+  font-family: "regular";
+  src: url(fonts/identica-regular.ttf) format("truetype");
+}
+* {
+  padding: 0;
+  border: 0;
+  font-family: "regular";
+  color: #9e9e9e;
+}
+p {
+  font-size: large;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+h1,
+h3 {
+  font-family: "title";
+  color: black;
+}
+.sub {
+  display: flex;
+}
+.sub text {
+  color: #fe9a53;
+  letter-spacing: -2px;
+}
+nav {
+  overflow: hidden;
+  background-color: white;
+}
+nav img {
+  margin-left: -1rem;
+  margin-top: -1rem;
+  margin-right: 3rem;
+}
+nav li {
+  margin-right: 1rem;
+}
+#about {
+  padding-top: 6rem;
+  display: flex;
+  padding-bottom: 5rem;
+}
+.about-1 {
+  width: 60%;
+  padding-left: 10rem;
+}
+.sub {
+  margin-top: 7rem;
+}
+.about-1 p {
+  width: 50%;
+  margin: 2rem 0;
+}
+.b1 {
+  outline: none;
+  color: black;
+  background-color: white;
+  border: 1px solid #9e9e9e;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+.about-2 {
+  display: flex;
+}
+.profile-button {
+  cursor: pointer;
+}
+.sideline {
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+.sideline a {
+  width: 1em;
+  transform: rotate(-90deg);
+  margin: 1rem;
+  padding: 0.5rem;
+  color: #9e9e9e;
+}
+.sideline a:hover {
+  color: black;
+}
+#portfolio {
+  padding-top: 5rem;
+  padding-left: 10rem;
+  padding-right: 21.5rem;
+}
+.port {
+  display: flex;
+  justify-content: space-between;
+}
+.fl {
+  color: #9e9e9e;
+  margin-left: 10px;
+}
+.active:hover,
+.fl:hover {
+  text-decoration: none;
+  color: black;
+}
+.active {
+  color: black;
+  margin-left: 10px;
+}
+.portimg {
+  display: flex;
+  margin-top: 2rem;
+}
+.feat-link {
+  padding-top: 10px;
+}
+.p2 img {
+  padding-left: 2px;
+  padding-bottom: 3.5px;
+}
+.card-text a,
+.card-text a:hover {
+  color: #fe9a53;
+}
+#blog {
+  padding: 5rem 16rem;
+}
+#blog button {
+  margin: auto;
+  margin-left: 18rem;
+}
+.card {
+  max-width: 60vw;
+  margin: auto;
+}
+.hide {
+  display: none;
+}
+#contact {
+  padding-left: 12rem;
+  padding-right: 25rem;
+}
+
+.form {
+  display: flex;
+  justify-content: space-around;
+}
+input,
+textarea {
+  padding-left: 1rem;
+  padding-right: 3rem;
+  margin-bottom: 2rem;
+  border: 1px solid #9e9e9e;
+  border-radius: 1rem;
+  color: black;
+}
+.b2 {
+  margin-left: 5vw;
+  padding: 1rem 4rem;
+  color: white;
+  background-color: black;
+  border-radius: 30px;
+}
+.small {
+  padding-top: 2rem;
+  text-align: center;
+}
+@media (orientation: portrait) {
+  #about {
+    flex-wrap: wrap;
+  }
+  .profile > img {
+    width: 90vw;
+  }
+  .circles {
+    display: flex;
+  }
+  .about-1 {
+    width: 80%;
+    padding-left: 1rem;
+  }
+  .about-1 p {
+    width: 100%;
+  }
+  .b1 {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+  .sideline {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  .portimg {
+    flex-wrap: wrap;
+  }
+  #portfolio {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+  }
+  .port {
+    flex-wrap: wrap;
+  }
+  .portimg img {
+    padding: 10px 0;
+  }
+  #blog {
+    padding: 2rem 0rem;
+  }
+  #blog button {
+    margin-left: 6rem;
+  }
+  .card {
+    max-width: 80vw;
+  }
+  #blog {
+    padding-left: 1rem;
+  }
+  .form {
+    flex-wrap: wrap;
+  }
+  .b2 {
+    margin-left: 25vw;
+  }
+  #contact {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
